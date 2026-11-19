@@ -1,0 +1,10 @@
+# Configuración inicial de la interfaz. Si falta o contiene errores, se usan los
+# valores por defecto definidos en models/pipeline_config.py.
+# Laura Álvarez Zamora - 19/11/2026
+
+model: "gemma4:12b"  # Modelo de Ollama inicial.
+temperature: 0.3  # Aleatoriedad (0 a 2).
+context_length: 16384  # Tamaño de la ventana de contexto (num_ctx).
+num_predict: 1500  # Número máximo de tokens de la respuesta.
+output_path: ""  # Carpeta donde se guarda el código generado (vacía: no se guarda).
+default_mode: "Explicar concepto"  # Modo de consulta inicial.

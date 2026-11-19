@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+officeparser_temp/
+.gradio/
